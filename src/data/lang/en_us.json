@@ -1,0 +1,7 @@
+{
+    "log_story_start": "You open your eyes and look around, yet nothing but darkness fills your vision.",
+    "log_gather_stick": "You pick up a stick from the ground.",
+    "resource_wood": "Wood",
+    "resource_stick": "Sticks",
+    "button_label_stick": "Gather Stick"
+}

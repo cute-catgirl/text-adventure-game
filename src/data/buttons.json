@@ -1,0 +1,6 @@
+{
+    "gather_stick": {
+        "label": "button_label_stick",
+        "time": 3
+    }
+}

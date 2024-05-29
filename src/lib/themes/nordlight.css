@@ -1,0 +1,8 @@
+/* Nord Dark Theme */
+:root {
+    --color-background-0: #ECEFF4;
+    --color-background-1: #E5E9F0;
+    --color-background-2: #D8DEE9;
+    --color-foreground: #2E3440;
+    --color-foreground-muted: #4C566A;
+}

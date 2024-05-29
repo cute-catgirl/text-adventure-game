@@ -1,0 +1,8 @@
+/* Catppuccin Mocha Theme */
+:root {
+    --color-background-0: #11111b;
+    --color-background-1: #181825;
+    --color-background-2: #1e1e2e;
+    --color-foreground: #cdd6f4;
+    --color-foreground-muted: #a6adc8;
+}

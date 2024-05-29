@@ -1,0 +1,22 @@
+{
+    "story_start": {
+        "actions": [
+            {
+                "type": "send_log",
+                "id": "log_story_start"
+            }
+        ]
+    },
+    "gather_stick": {
+        "actions": [
+            {
+                "type": "send_log",
+                "id": "log_gather_stick"
+            },
+            {
+                "type": "add_resource",
+                "id": "resource_stick"
+            }
+        ]
+    }
+}
