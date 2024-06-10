@@ -19,9 +19,10 @@ function callEvent(id) {
                     if (resource) {
                         // Update the amount if the resource exists
                         resource.amount += amount;
+                        resource.totalAmount += amount;
                     } else {
                         // Add new resource if it does not exist
-                        currentResources.push({ id: resourceId, amount: amount });
+                        currentResources.push({ id: resourceId, amount: amount, totalAmount: amount });
                     }
                     return currentResources;
                 });

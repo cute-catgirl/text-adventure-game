@@ -1,6 +1,17 @@
 {
+    "look_around": {
+        "label": "button_label_look_around",
+        "time": 5,
+        "requirements": []
+    },
     "gather_stick": {
         "label": "button_label_stick",
-        "time": 3
+        "time": 3,
+        "requirements": [
+            {
+                "type": "button",
+                "id": "look_around"
+            }
+        ]
     }
 }

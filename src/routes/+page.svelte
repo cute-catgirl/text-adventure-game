@@ -1,14 +1,21 @@
 <script>
+	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 	import Log from '../lib/components/log.svelte';
 	import Resourcelist from '../lib/components/resourcelist.svelte';
 	import Themeswitcher from '../lib/components/themeswitcher.svelte';
-	import { resources, messages } from '$lib/stores';
+	import { resources, messages, newgame } from '$lib/stores';
 	import { callEvent } from '$lib/index';
+	import buttons from '../data/buttons.json';
 
 	onMount(() => {
-		callEvent('story_start');
+		if ($newgame == true) {
+			newgame.set(false);
+			callEvent('story_start');
+		}
 	});
+
+	$: avaliableButtons = 
 </script>
 
 <main>
@@ -25,6 +32,7 @@
 		<div id="logbox">
 			<Log messages={$messages}></Log>
 		</div>
+		<div id="buttons"></div>
 	</div>
 </main>
 

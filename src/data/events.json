@@ -7,6 +7,14 @@
             }
         ]
     },
+    "look_around": {
+        "actions": [
+            {
+                "type": "send_log",
+                "id": "log_look_around"
+            }
+        ]
+    },
     "gather_stick": {
         "actions": [
             {

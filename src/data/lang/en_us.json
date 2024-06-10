@@ -3,5 +3,6 @@
     "log_gather_stick": "You pick up a stick from the ground.",
     "resource_wood": "Wood",
     "resource_stick": "Sticks",
+    "button_label_look_around": "Look Around",
     "button_label_stick": "Gather Stick"
 }
